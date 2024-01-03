@@ -5,3 +5,8 @@ Learn TailwindCSS by sandhikagalih WPU
 - Sizing
 - typography
 - colors
+
+- backgrounds
+- borders
+- effects
+- filters
