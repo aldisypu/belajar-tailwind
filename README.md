@@ -5,8 +5,17 @@ Learn TailwindCSS by sandhikagalih WPU
 - Sizing
 - typography
 - colors
-
 - backgrounds
 - borders
 - effects
 - filters
+
+<hr>
+
+- pseudo-class
+- dark mode
+- transform
+- transition
+- animation
+- layouting
+- responsive design
