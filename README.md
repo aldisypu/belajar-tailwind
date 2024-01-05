@@ -19,3 +19,7 @@ Learn TailwindCSS by sandhikagalih WPU
 - animation
 - layouting
 - responsive design
+- flexbox
+- grid
+- functions
+- directives
