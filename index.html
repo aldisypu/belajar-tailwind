@@ -6,43 +6,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com"></script>
-
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="css/style.css" />
     <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    spacing: {
-                    13: '3.25rem',
-                    },
-                    fontFamily: {
-                        inter: ['Inter'],
-                    },
-                    colors: {
-                        wpu: '#bada55',
-                        kopi: '#c0ffee',
-                    },
-                    animation: {
-                        'spin-slow': 'spin 3s linear infinite',
-                        goyang: 'goyang 1s ease-in-out infinite',
-                    },
-                    keyframes: {
-                        goyang: {
-                            '0%, 100%': { transform: 'rotate(-3deg)' },
-                            '50%': { transform: 'rotate(3deg)' },
-                        },
-                    },
-                },
-            },
-        };
+        // tailwind.config = {
+        //     darkMode: 'class',
+        //     theme: {
+        //         extend: {
+        //             spacing: {
+        //             13: '3.25rem',
+        //             },
+        //             fontFamily: {
+        //                 inter: ['Inter'],
+        //             },
+        //             colors: {
+        //                 wpu: '#bada55',
+        //                 kopi: '#c0ffee',
+        //             },
+        //             animation: {
+        //                 'spin-slow': 'spin 3s linear infinite',
+        //                 goyang: 'goyang 1s ease-in-out infinite',
+        //             },
+        //             keyframes: {
+        //                 goyang: {
+        //                     '0%, 100%': { transform: 'rotate(-3deg)' },
+        //                     '50%': { transform: 'rotate(3deg)' },
+        //                 },
+        //             },
+        //         },
+        //     },
+        // };
         </script>
     <title>Belajar TailwindCSS</title>
-    <style type="text/tailwindcss">
-        #toggle:checked ~ label div.toggle-circle {
-            @apply translate-x-3;
-        }
-    </style>
 </head>
 <body class="dark:bg-slate-800 dark:text-slate-200">
     <h1 class="text-8xl font-bold text-center my-10">Mari Belajar 
@@ -129,7 +124,7 @@
         Simpan
     </button>
 
-    <div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-inter hover:bg-sky-500 group font-serif dark:hover:bg-slate-300">
+    <div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-inter hover:bg-sky-500 group dark:hover:bg-slate-300">
         <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white dark:group-hover:text-slate-800">My Card</h5>
         <p class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl first-letter:float-left first-letter:mr-3 dark:group-hover:text-slate-800">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga officia veniam, corporis, ullam reiciendis qui odit eum amet eius molestiae, est placeat corrupti voluptatem quo
